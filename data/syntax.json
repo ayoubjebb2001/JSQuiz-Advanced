@@ -1,0 +1,149 @@
+{
+    "theme": "syntax",
+    "questions": [
+        {
+            "question": "How do you write a single-line comment in JavaScript?",
+            "answers": [
+                "// This is a comment",
+                "/* This is a comment */",
+                "# This is a comment",
+                "-- This is a comment"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "How do you write a multi-line comment in JavaScript?",
+            "answers": [
+                "/* This is a multi-line comment */",
+                "// This is a multi-line comment //",
+                "<!-- This is a multi-line comment -->",
+                "# This is a multi-line comment #"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Which of the following is a valid variable name in JavaScript?",
+            "answers": [
+                "let 1stPlace",
+                "let firstPlace",
+                "let first-place",
+                "let first place"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which keyword is used to declare a constant in JavaScript?",
+            "answers": [
+                "var",
+                "let",
+                "const",
+                "final"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What is the correct syntax for a JavaScript function?",
+            "answers": [
+                "function = myFunction() {}",
+                "function myFunction() {}",
+                "create myFunction() {}",
+                "def myFunction() {}"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "How do you create an array in JavaScript?",
+            "answers": [
+                "var arr = (1, 2, 3)",
+                "var arr = [1, 2, 3]",
+                "var arr = {1, 2, 3}",
+                "var arr = 1, 2, 3"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which operator is used for strict equality in JavaScript?",
+            "answers": [
+                "==",
+                "===",
+                "=",
+                "!="
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "How do you write a for loop in JavaScript?",
+            "answers": [
+                "for (i = 0; i <= 5; i++)",
+                "for i = 1 to 5",
+                "for (i <= 5; i++)",
+                "for (i = 0; i <= 5)"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What is the correct way to write a JavaScript object?",
+            "answers": [
+                "var obj = (name: 'John', age: 30)",
+                "var obj = {name: 'John', age: 30}",
+                "var obj = [name: 'John', age: 30]",
+                "var obj = name: 'John', age: 30"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method is used to add an element to the end of an array?",
+            "answers": [
+                "add()",
+                "append()",
+                "push()",
+                "insert()"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "How do you access the first element of an array named 'arr'?",
+            "answers": [
+                "arr[1]",
+                "arr[0]",
+                "arr.first()",
+                "arr.get(0)"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is the correct syntax for an if statement in JavaScript?",
+            "answers": [
+                "if i == 5 then",
+                "if (i == 5)",
+                "if i = 5",
+                "if i === 5 then"
+            ],
+            "correct": [
+                1
+            ]
+        }
+    ]
+}

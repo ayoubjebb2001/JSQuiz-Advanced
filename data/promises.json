@@ -1,0 +1,149 @@
+{
+    "theme": "promises",
+    "questions": [
+        {
+            "question": "What is a Promise in JavaScript?",
+            "answers": [
+                "A guarantee that code will run",
+                "An object representing eventual completion of an async operation",
+                "A synchronous function",
+                "A type of variable"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What are the three states of a Promise?",
+            "answers": [
+                "pending, resolved, rejected",
+                "pending, fulfilled, rejected",
+                "waiting, completed, failed",
+                "new, running, finished"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method is used to handle a resolved Promise?",
+            "answers": [
+                "catch()",
+                "then()",
+                "finally()",
+                "resolve()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method is used to handle a rejected Promise?",
+            "answers": [
+                "then()",
+                "catch()",
+                "finally()",
+                "reject()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does Promise.all() do?",
+            "answers": [
+                "Resolves when all promises resolve",
+                "Resolves when any promise resolves",
+                "Rejects when all promises reject",
+                "Runs promises sequentially"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What does async/await do?",
+            "answers": [
+                "Makes asynchronous code look synchronous",
+                "Makes code run faster",
+                "Prevents errors",
+                "Creates promises"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What keyword is used with async functions to wait for promises?",
+            "answers": [
+                "wait",
+                "await",
+                "pause",
+                "then"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does Promise.race() return?",
+            "answers": [
+                "The fastest promise to complete",
+                "All promises when they complete",
+                "The slowest promise to complete",
+                "An array of all promise results"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "How do you create a resolved Promise?",
+            "answers": [
+                "Promise.resolve(value)",
+                "new Promise(resolve => resolve(value))",
+                "Promise.create(value)",
+                "Both Promise.resolve(value) and new Promise(resolve => resolve(value))"
+            ],
+            "correct": [
+                3
+            ]
+        },
+        {
+            "question": "What happens if you don't catch a rejected Promise?",
+            "answers": [
+                "Nothing happens",
+                "The program crashes",
+                "An unhandled promise rejection warning/error occurs",
+                "The promise resolves automatically"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "Can you use await without async?",
+            "answers": [
+                "Yes, always",
+                "No, never",
+                "Only in modules",
+                "Only at the top level in modules"
+            ],
+            "correct": [
+                3
+            ]
+        },
+        {
+            "question": "What does finally() do in a Promise chain?",
+            "answers": [
+                "Runs only when the promise resolves",
+                "Runs only when the promise rejects",
+                "Runs regardless of promise outcome",
+                "Runs before then() and catch()"
+            ],
+            "correct": [
+                2
+            ]
+        }
+    ]
+}

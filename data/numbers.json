@@ -1,0 +1,150 @@
+{
+    "theme": "numbers",
+    "questions": [
+        {
+            "question": "What will be the output of the following code: console.log(0x1a);?",
+            "answers": [
+                "1a",
+                "0x1a",
+                "26",
+                "10"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What is the result of 5 + '5' in JavaScript?",
+            "answers": [
+                "10",
+                "'55'",
+                "NaN",
+                "Error"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does Number.isNaN(NaN) return?",
+            "answers": [
+                "true",
+                "false",
+                "undefined",
+                "NaN"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What is the result of Math.floor(4.7)?",
+            "answers": [
+                "4",
+                "5",
+                "4.7",
+                "Error"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What does parseInt('10.5') return?",
+            "answers": [
+                "10.5",
+                "10",
+                "11",
+                "NaN"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is the maximum safe integer in JavaScript?",
+            "answers": [
+                "Number.MAX_VALUE",
+                "Number.MAX_SAFE_INTEGER",
+                "Infinity",
+                "9007199254740991"
+            ],
+            "correct": [
+                1,
+                3
+            ]
+        },
+        {
+            "question": "What does Math.random() return?",
+            "answers": [
+                "A random integer",
+                "A random number between 0 and 1",
+                "A random number between 1 and 10",
+                "A random boolean"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is the result of 10 / 0 in JavaScript?",
+            "answers": [
+                "0",
+                "undefined",
+                "Infinity",
+                "Error"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What does Number('123abc') return?",
+            "answers": [
+                "123",
+                "NaN",
+                "Error",
+                "'123abc'"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is the result of Math.ceil(4.1)?",
+            "answers": [
+                "4",
+                "5",
+                "4.1",
+                "Error"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method converts a number to a string?",
+            "answers": [
+                "toString()",
+                "String()",
+                "valueOf()",
+                "Both toString() and String()"
+            ],
+            "correct": [
+                3
+            ]
+        },
+        {
+            "question": "What is the result of 0.1 + 0.2 in JavaScript?",
+            "answers": [
+                "0.3",
+                "0.30000000000000004",
+                "0.30000000000000000",
+                "Error"
+            ],
+            "correct": [
+                1
+            ]
+        }
+    ]
+}

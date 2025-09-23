@@ -1,0 +1,149 @@
+{
+    "theme": "objects",
+    "questions": [
+        {
+            "question": "How do you access the property 'name' of an object 'person'?",
+            "answers": [
+                "person->name",
+                "person.name",
+                "person[name]",
+                "person::name"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method returns an array of an object's property names?",
+            "answers": [
+                "Object.keys()",
+                "Object.values()",
+                "Object.entries()",
+                "Object.properties()"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "How do you add a new property to an object?",
+            "answers": [
+                "obj.newProp = value",
+                "obj['newProp'] = value",
+                "Object.assign(obj, {newProp: value})",
+                "All of the above"
+            ],
+            "correct": [
+                3
+            ]
+        },
+        {
+            "question": "What does Object.values() return?",
+            "answers": [
+                "An array of property names",
+                "An array of property values",
+                "An array of key-value pairs",
+                "The object itself"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "How do you check if an object has a specific property?",
+            "answers": [
+                "obj.hasProperty('prop')",
+                "obj.hasOwnProperty('prop')",
+                "obj.contains('prop')",
+                "obj.includes('prop')"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does the 'this' keyword refer to in an object method?",
+            "answers": [
+                "The global object",
+                "The object that owns the method",
+                "undefined",
+                "The parent object"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method creates a new object with the specified prototype?",
+            "answers": [
+                "Object.create()",
+                "Object.new()",
+                "Object.prototype()",
+                "Object.make()"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "How do you delete a property from an object?",
+            "answers": [
+                "remove obj.prop",
+                "delete obj.prop",
+                "obj.prop = null",
+                "obj.remove('prop')"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does Object.freeze() do?",
+            "answers": [
+                "Makes an object immutable",
+                "Stops object execution",
+                "Copies an object",
+                "Serializes an object"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Which method copies properties from source objects to a target object?",
+            "answers": [
+                "Object.copy()",
+                "Object.assign()",
+                "Object.merge()",
+                "Object.extend()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is the result of {} == {}?",
+            "answers": [
+                "true",
+                "false",
+                "undefined",
+                "Error"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "How do you iterate over all properties of an object?",
+            "answers": [
+                "for...in loop",
+                "Object.keys().forEach()",
+                "for...of loop with Object.entries()",
+                "All of the above"
+            ],
+            "correct": [
+                3
+            ]
+        }
+    ]
+}

@@ -1,0 +1,149 @@
+{
+    "theme": "functions",
+    "questions": [
+        {
+            "question": "What is a function declaration?",
+            "answers": [
+                "var func = function() {}",
+                "function func() {}",
+                "const func = () => {}",
+                "func = function() {}"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is an arrow function?",
+            "answers": [
+                "function() => {}",
+                "() => {}",
+                "=> function() {}",
+                "function => () {}"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does the 'arguments' object contain?",
+            "answers": [
+                "Function parameters",
+                "All arguments passed to a function",
+                "Function return value",
+                "Function name"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method calls a function with a given 'this' value?",
+            "answers": [
+                "call()",
+                "apply()",
+                "bind()",
+                "Both call() and apply()"
+            ],
+            "correct": [
+                3
+            ]
+        },
+        {
+            "question": "What does a function return if no return statement is used?",
+            "answers": [
+                "null",
+                "undefined",
+                "0",
+                "''"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is a closure?",
+            "answers": [
+                "A function inside another function",
+                "A function that has access to outer scope variables",
+                "A function that returns another function",
+                "A function with no parameters"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is the difference between call() and apply()?",
+            "answers": [
+                "No difference",
+                "call() takes arguments individually, apply() takes an array",
+                "apply() takes arguments individually, call() takes an array",
+                "call() is faster than apply()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does bind() return?",
+            "answers": [
+                "The function result",
+                "A new function with bound 'this'",
+                "undefined",
+                "The original function"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is a higher-order function?",
+            "answers": [
+                "A function that calls itself",
+                "A function that takes or returns other functions",
+                "A function with many parameters",
+                "A function that runs slowly"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What is function hoisting?",
+            "answers": [
+                "Functions are moved to the top of their scope",
+                "Functions are executed immediately",
+                "Functions are cached",
+                "Functions are optimized"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What happens to 'this' in an arrow function?",
+            "answers": [
+                "It refers to the global object",
+                "It refers to the function itself",
+                "It inherits 'this' from the enclosing scope",
+                "It is undefined"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What is an IIFE?",
+            "answers": [
+                "Immediately Invoked Function Expression",
+                "Internal Interface Function Expression",
+                "Inherited Instance Function Expression",
+                "Interactive Inline Function Expression"
+            ],
+            "correct": [
+                0
+            ]
+        }
+    ]
+}

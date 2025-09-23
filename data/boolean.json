@@ -1,0 +1,149 @@
+{
+    "theme": "boolean",
+    "questions": [
+        {
+            "question": "Which function is used to cast a non-Boolean value to a boolean value in JavaScript?",
+            "answers": [
+                "CastBoolean()",
+                "ToBoolean()",
+                "ConvertToBoolean()",
+                "Boolean()"
+            ],
+            "correct": [
+                3
+            ]
+        },
+        {
+            "question": "What will be the output of the following code: let error = 'An error occurred'; if (error) { console.log(error); }?",
+            "answers": [
+                "An error occurred",
+                "true",
+                "undefined",
+                "false"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What is the result of Boolean(0)?",
+            "answers": [
+                "true",
+                "false",
+                "0",
+                "undefined"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which of the following values is falsy in JavaScript?",
+            "answers": [
+                "[]",
+                "{}",
+                "''",
+                "'false'"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What does !!'hello' return?",
+            "answers": [
+                "true",
+                "false",
+                "'hello'",
+                "undefined"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "Which values are falsy in JavaScript?",
+            "answers": [
+                "false, 0, '', null, undefined, NaN",
+                "false, 0, [], {}, null, undefined",
+                "false, 0, '', 'false', null, undefined",
+                "false, 0, '', null, undefined"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What is the result of Boolean([])?",
+            "answers": [
+                "true",
+                "false",
+                "undefined",
+                "Error"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What does the && operator return if the first operand is falsy?",
+            "answers": [
+                "true",
+                "false",
+                "The first operand",
+                "The second operand"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What is the result of true && false?",
+            "answers": [
+                "true",
+                "false",
+                "undefined",
+                "Error"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does the || operator return if the first operand is truthy?",
+            "answers": [
+                "true",
+                "false",
+                "The first operand",
+                "The second operand"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What is the result of null == undefined?",
+            "answers": [
+                "true",
+                "false",
+                "null",
+                "undefined"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What is the result of null === undefined?",
+            "answers": [
+                "true",
+                "false",
+                "null",
+                "undefined"
+            ],
+            "correct": [
+                1
+            ]
+        }
+    ]
+}

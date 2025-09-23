@@ -1,0 +1,149 @@
+{
+    "theme": "arrays",
+    "questions": [
+        {
+            "question": "Which method adds one or more elements to the end of an array?",
+            "answers": [
+                "append()",
+                "push()",
+                "add()",
+                "insert()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method removes the last element from an array?",
+            "answers": [
+                "remove()",
+                "delete()",
+                "pop()",
+                "shift()"
+            ],
+            "correct": [
+                2
+            ]
+        },
+        {
+            "question": "What does the map() method return?",
+            "answers": [
+                "The original array",
+                "A new array with transformed elements",
+                "The first element",
+                "undefined"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method finds the first element that satisfies a condition?",
+            "answers": [
+                "filter()",
+                "find()",
+                "search()",
+                "locate()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does [1, 2, 3].length return?",
+            "answers": [
+                "2",
+                "3",
+                "4",
+                "undefined"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method creates a new array with all elements that pass a test?",
+            "answers": [
+                "map()",
+                "filter()",
+                "find()",
+                "reduce()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does the slice() method do?",
+            "answers": [
+                "Modifies the original array",
+                "Returns a shallow copy of a portion of an array",
+                "Removes elements from an array",
+                "Adds elements to an array"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method joins all elements of an array into a string?",
+            "answers": [
+                "concat()",
+                "join()",
+                "toString()",
+                "stringify()"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "What does the indexOf() method return if the element is not found?",
+            "answers": [
+                "0",
+                "-1",
+                "null",
+                "undefined"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method reverses the elements of an array in place?",
+            "answers": [
+                "reverse()",
+                "flip()",
+                "invert()",
+                "backward()"
+            ],
+            "correct": [
+                0
+            ]
+        },
+        {
+            "question": "What does the reduce() method do?",
+            "answers": [
+                "Reduces the array size",
+                "Executes a reducer function for each element and returns a single value",
+                "Removes duplicate elements",
+                "Sorts the array"
+            ],
+            "correct": [
+                1
+            ]
+        },
+        {
+            "question": "Which method checks if at least one element passes a test?",
+            "answers": [
+                "every()",
+                "some()",
+                "includes()",
+                "contains()"
+            ],
+            "correct": [
+                1
+            ]
+        }
+    ]
+}
