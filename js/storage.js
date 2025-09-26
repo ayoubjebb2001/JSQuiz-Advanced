@@ -1,4 +1,4 @@
-import { showWelcomeMessage , createThemeCards } from "./ui.js";
+
 /**
  * Load user data from localStorage or create new user if not found
  * @param {string} username - The username to load or create
@@ -40,42 +40,7 @@ function saveUserData(userData) {
     localStorage.setItem('users', JSON.stringify(users));
 }
 
-/**
- * Handle user login process
- */
-async function handleLogin() {
-    const username = document.getElementById('username').value.trim();
 
-    if (!username || username === ' '.repeat(username.length)) {
-        const errorMsg = document.createElement('span');
-        errorMsg.classList.add('error-message');
-        if (!document.querySelector('.error-message')) {
-            errorMsg.innerText = 'Please enter a valid username';
-            document.querySelector('.username').appendChild(errorMsg);
-        }
-        return;
-    }
-
-    let activeUser = null;
-
-    try {
-        // Load or create user data
-        activeUser = loadUserData(username);
-
-        // Show welcome message
-        showWelcomeMessage(username);
-
-        // Get available themes and show selection cards
-        const themes = await getAvailableThemes();
-        createThemeCards(themes);
-
-        // Add event listeners for theme selection
-        addThemeEventListeners();
-
-    } catch (error) {
-        console.error('Login error:', error);
-    }
-}
 
 /**
  * Get available themes from data directory
@@ -112,4 +77,8 @@ async function loadQuizData(theme) {
     }
 }
 
-export { loadUserData, saveUserData, getAvailableThemes, loadQuizData, handleLogin };
+async function saveGameHistory(score, totalTime, currentQuestions,userAnswers, currentTheme) {
+    
+}
+
+export { loadUserData, saveUserData, getAvailableThemes, loadQuizData };
