@@ -1,8 +1,21 @@
 import { usernameInput, logInButton, toggleLogInButton, createThemeCards, showWelcomeMessage } from "./ui.js";
-import {  getAvailableThemes , loadUserData} from "./storage.js";
+import { getAvailableThemes, loadUserData } from "./storage.js";
 import { startQuiz } from "./quiz.js";
 
-let activeUser = null;
+
+let quizApp = {
+    currentQuestions : [],
+    currentQuestionIndex : 0,
+    questionTimer : null,
+    globalTimer : null,
+    startTime : null,
+    totalTime : null,
+    questionTimeLimit : 20,
+    userAnswers : [],
+    currentTheme : '',
+    currentUser : null
+}
+
 document.addEventListener('DOMContentLoaded', () => {
     const container = document.createElement('div');
     container.classList.add('container');
@@ -40,10 +53,10 @@ async function handleLogin() {
         return;
     }
 
-    
+
     try {
         // Load or create user data
-        activeUser = loadUserData(username);
+        quizApp.currentUser = loadUserData(username);
 
         // Show welcome message
         showWelcomeMessage(username);
@@ -51,10 +64,10 @@ async function handleLogin() {
         // Get available themes and show selection cards
         const themes = await getAvailableThemes();
         createThemeCards(themes);
-             // Add event listeners for theme selection
+        // Add event listeners for theme selection
         addThemeEventListeners();
 
-       
+
 
     } catch (error) {
         console.error('Login error:', error);
@@ -72,15 +85,19 @@ function addThemeEventListeners() {
         const startBtn = card.querySelector('.start-theme-btn');
         startBtn.addEventListener('click', () => {
             const theme = card.getAttribute('data-theme');
+            quizApp.currentTheme = theme;
             startQuiz(theme);
         });
-
+        
         // Also allow clicking the card itself
         card.addEventListener('click', (event) => {
             if (!event.target.classList.contains('start-theme-btn')) {
                 const theme = card.getAttribute('data-theme');
+                quizApp.currentTheme = theme;
                 startQuiz(theme);
             }
         });
     });
 }
+
+export { quizApp }

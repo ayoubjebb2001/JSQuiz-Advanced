@@ -1,4 +1,3 @@
-import { startQuiz } from "./quiz";
 
 /**
  * create username input field
